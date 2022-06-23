@@ -3,7 +3,7 @@
     "view": {
 		"kind":"form",
 		"properties": {
-			"title": "Analytics end-to-end with Azure Synapse - Deployment Accelerator",
+			"title": "Synapse Analytics - End-to-End Deployment Accelerator v2",
 			"steps": [
 				{
                     "name": "basics",
@@ -26,7 +26,7 @@
 										"text": "Choose between network isolation modes. 'Public Endpoints (default)' will deploy services with public endpoints. 'vNet Integrated' will deploy custom firewall rules and Private Link endpoints for supported services in a given vNet.",
 										"link": {
 											"label": "See more information about the deployed architecture here.",
-											"uri": "https://github.com/Azure/azure-synapse-analytics-end2end"
+											"uri": "https://github.com/iomegak12/synapse-e2e-deployment"
 										}
 									}
 								},
@@ -67,7 +67,7 @@
 							"options": {
 								"icon": "Info",
 								"text": "This workload deploys the required platform services required to run Azure Synapse Analytics.",
-								"uri": "https://github.com/Azure/azure-synapse-analytics-end2end"
+								"uri": "https://github.com/iomegak12/synapse-e2e-deployment"
 							}
 						},
 						{
@@ -261,7 +261,7 @@
                                         "text": "Please configure your Purview account.",
                                         "link": {
                                             "label": "Learn more",
-                                            "uri": "https://github.com/Azure/azure-synapse-analytics-end2end"
+                                            "uri": "https://github.com/iomegak12/synapse-e2e-deployment"
                                         }
                                     }
                                 },
@@ -301,7 +301,7 @@
                                         "text": "Please configure your AI workload.",
                                         "link": {
                                             "label": "Learn more",
-                                            "uri": "https://github.com/Azure/azure-synapse-analytics-end2end"
+                                            "uri": "https://github.com/iomegak12/synapse-e2e-deployment"
                                         }
                                     }
                                 },
@@ -312,7 +312,7 @@
 									"options": {
 										"icon": "Info",
 										"text": "AI services include Azure Machine Learning, Anomaly Detector and Cognitive Services.",
-										"uri": "https://github.com/Azure/azure-synapse-analytics-end2end"
+										"uri": "https://github.com/iomegak12/synapse-e2e-deployment"
 									}
 								},
 								{
@@ -350,7 +350,7 @@
 									"options": {
 										"icon": "Info",
 										"text": "Data streaming services include Azure EventHubs, Azure IoT Hub and Stream Analytics.",
-										"uri": "https://github.com/Azure/azure-synapse-analytics-end2end"
+										"uri": "https://github.com/iomegak12/synapse-e2e-deployment"
 									}
 								},
 								{
@@ -490,7 +490,7 @@
 							"options": {
 								"icon": "Warning",
 								"text": "Your Deployment Mode is set to 'Public Endpoints (default)' and all services will be deployed with public endpoints. Please review the firewall configuration for the deployed services to allow connectivity from approved networks.",
-								"uri": "https://github.com/Azure/azure-synapse-analytics-end2end"
+								"uri": "https://github.com/iomegak12/synapse-e2e-deployment"
 							}
 						},
 						{
